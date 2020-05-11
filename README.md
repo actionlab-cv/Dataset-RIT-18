@@ -7,20 +7,22 @@
 0. [Benchmark](#benchmark)
 0. [Citation](#citation)
 
-## :globe_with_meridians:  Overview
+<a name="overview"></a>
+## :globe_with_meridians:  Overview 
 
-<a href="http://www.youtube.com/watch?v=VIDEO_ID
-" target="_blank"><img src="assets/cover.png" 
-alt="Sample Video of RIT-18" width="240"/></a>
+<img src="assets/RIT-18-samples.gif" 
+alt="RIT-18 Samples" width="600"/></a>
 
 RIT-18 is a novel compositional activity dataset collected by ACTION Lab at RIT containing 18 compositional activity classes. We collected video clips from 51 volleyball games on YouTube. With comprehensive annotations, RIT-18 is a large scale dataset for group activity understanding tasks such as group activity recognition, future activity anticipation, and rally-level winner prediction. The benchmark for these three tasks is provided. 
 
 Besides the aforementioned tasks, we believe RIT-18 dataset is potential for other less explored tasks, for example, temporal group activity localization, individual contribution evalution, and game-level winner prediction. Welcome to play!
 
-## :file_cabinet:  Download
+<a name="download"></a>
+## :file_cabinet:  Download 
 
 Download [here](https://pht180.rit.edu/actionlab/rit-18)
 
+<a name="details-of-dataset"></a>
 ## :card_index_dividers:  Details of Dataset
 
 ### Overall structure of the dataset
@@ -113,7 +115,8 @@ e.g.
     imExt=.jpg
 ```
 
-## :construction:  Benchmark
+<a name="benchmark"></a>
+## :construction:  Benchmark 
 
 ### Group activity recognition
 
@@ -135,6 +138,7 @@ alt="Group Activity Anticipation Benchmark on RIT-18" width="800"/></a>
 <img src="assets/benchmark-winner.png" 
 alt="Rally-level Winner Prediction Benchmark on RIT-18" width="400"/></a>
 
+<a name="citation"></a>
 ## :bookmark_tabs:  Citation
 
 Please cite our CVPR Workshop paper if use this dataset.
