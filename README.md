@@ -138,6 +138,10 @@ alt="Group Activity Anticipation Benchmark on RIT-18" width="800"/></a>
 <img src="assets/benchmark-winner.png" 
 alt="Rally-level Winner Prediction Benchmark on RIT-18" width="400"/></a>
 
+### Our Poster
+<img src="assets/teaser.gif" 
+alt="Poster" width="512"/></a>
+
 <a name="citation"></a>
 ## :bookmark_tabs:  Citation
 
