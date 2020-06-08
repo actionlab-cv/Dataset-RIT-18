@@ -13,7 +13,7 @@
 <img src="assets/RIT-18-samples.gif" 
 alt="RIT-18 Samples" width="600"/></a>
 
-[![Watch the video](assets/RIT-18-samples.gif)](https://youtu.be/pi4f3qxBWMI)
+[![Watch the video](assets/cover.001.jpeg)](https://youtu.be/pi4f3qxBWMI)
 
 RIT-18 is a novel compositional activity dataset collected by ACTION Lab at RIT containing 18 compositional activity classes. We collected video clips from 51 volleyball games on YouTube. With comprehensive annotations, RIT-18 is a large scale dataset for group activity understanding tasks such as group activity recognition, future activity anticipation, and rally-level winner prediction. The benchmark for these three tasks is provided. 
 
@@ -130,15 +130,11 @@ alt="Group Activity Recognition Benchmark on RIT-18" width="800"/></a>
 <img src="assets/benchmark-anticipation.png" 
 alt="Group Activity Anticipation Benchmark on RIT-18" width="800"/></a>
 ### Rally-level winner prediction
-
-**B1**. *LSTM*: We first extract frame-level features by VGG19 and apply LSTM on the sequence of frame features. The output of LSTM is used for binary classification.
-
-**B2**. *Extended ARG with temporal order*: We extend ARG by sorting the six frames from the partial obser- vation, selected by the sparse temporal sampling strategy.
-
-**B3**. *Extended ARG with monotone importance*: We extend ARG by sorting the six frames from the partial ob- servation and increasing the importance of the latter frames gradually, since they are closer to winpoint and should be more responsible for the prediction.
-
-<img src="assets/benchmark-winner.png" 
-alt="Rally-level Winner Prediction Benchmark on RIT-18" width="400"/></a>
+Winner Prediction baseline test.
+```
+cd winner
+python scripts/test_volleyball_winner.py
+```
 
 ### Our Poster
 <img src="assets/teaser.gif" 
