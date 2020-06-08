@@ -13,6 +13,8 @@
 <img src="assets/RIT-18-samples.gif" 
 alt="RIT-18 Samples" width="600"/></a>
 
+[![Watch the video](assets/RIT-18-samples.gif)](https://youtu.be/pi4f3qxBWMI)
+
 RIT-18 is a novel compositional activity dataset collected by ACTION Lab at RIT containing 18 compositional activity classes. We collected video clips from 51 volleyball games on YouTube. With comprehensive annotations, RIT-18 is a large scale dataset for group activity understanding tasks such as group activity recognition, future activity anticipation, and rally-level winner prediction. The benchmark for these three tasks is provided. 
 
 Besides the aforementioned tasks, we believe RIT-18 dataset is potential for other less explored tasks, for example, temporal group activity localization, individual contribution evalution, and game-level winner prediction. Welcome to play!
